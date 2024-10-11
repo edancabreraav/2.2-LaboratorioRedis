@@ -4,7 +4,7 @@ const conexion = require('./models/database.js')
 
 // Importación de rutas
 const productRoutes = require('./routes/products');
-//const clientRoutes = require('./routes/client');
+const clientRoutes = require('./routes/client');
 //const branchRoutes = require('./routes/branch')
 //const salesRoutes = require('./routes/sales')
 
@@ -23,7 +23,7 @@ conexion
 
 //Rutas
 app.use('/products', productRoutes);
-//app.use('/client', clientRoutes);
+app.use('/client', clientRoutes);
 //app.use('/sale', salesRoutes);
 //app.use('/branch', branchRoutes);
 
