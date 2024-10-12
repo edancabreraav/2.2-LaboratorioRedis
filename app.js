@@ -5,7 +5,7 @@ const conexion = require('./models/database.js')
 // Importación de rutas
 const productRoutes = require('./routes/products');
 const clientRoutes = require('./routes/client');
-//const branchRoutes = require('./routes/branch')
+const branchRoutes = require('./routes/branch');
 //const salesRoutes = require('./routes/sales')
 
 
@@ -25,7 +25,7 @@ conexion
 app.use('/products', productRoutes);
 app.use('/client', clientRoutes);
 //app.use('/sale', salesRoutes);
-//app.use('/branch', branchRoutes);
+app.use('/branch', branchRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
