@@ -6,7 +6,7 @@ const conexion = require('./models/database.js')
 const productRoutes = require('./routes/products');
 const clientRoutes = require('./routes/client');
 const branchRoutes = require('./routes/branch');
-//const salesRoutes = require('./routes/sales')
+const salesRoutes = require('./routes/sales')
 
 
 dotenv.config();
@@ -24,7 +24,7 @@ conexion
 //Rutas
 app.use('/products', productRoutes);
 app.use('/client', clientRoutes);
-//app.use('/sale', salesRoutes);
+app.use('/sale', salesRoutes);
 app.use('/branch', branchRoutes);
 
 const PORT = process.env.PORT || 3000;
