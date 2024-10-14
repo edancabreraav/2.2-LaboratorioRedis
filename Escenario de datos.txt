@@ -1,0 +1,158 @@
+
+#Productos para la sucursal 1000
+HSET SUCURSAL:1000:PRODUCTO:100 nombre "Cemento Portland" precio 150 categoria "Material de construcción" datosAdicionales "Resistencia a la compresión"
+HSET SUCURSAL:1000:PRODUCTO:101 nombre "Tabique rojo recocido" precio 6 categoria "Material de construcción" datosAdicionales "Dimensiones: 12x6x24 cm"
+HSET SUCURSAL:1000:PRODUCTO:102 nombre "Adhesivo para azulejo" precio 70 categoria "Pegamentos" datosAdicionales "6 m2 por saco"
+HSET SUCURSAL:1000:PRODUCTO:103 nombre "Tubo de PVC 3" precio 55 categoria "Plomería" datosAdicionales "Longitud: 3 m"
+HSET SUCURSAL:1000:PRODUCTO:104 nombre "Mortero" precio 75 categoria "Material de construcción" datosAdicionales "40 kg"
+#Productos para la sucursal 1001
+HSET SUCURSAL:1001:PRODUCTO:100 nombre "Cemento Portland" precio 150 categoria "Material de construcción" datosAdicionales "Resistencia a la compresión"
+HSET SUCURSAL:1001:PRODUCTO:101 nombre "Tabique rojo recocido" precio 6 categoria "Material de construcción" datosAdicionales "Dimensiones: 12x6x24 cm"
+HSET SUCURSAL:1001:PRODUCTO:102 nombre "Adhesivo para azulejo" precio 70 categoria "Pegamentos" datosAdicionales "6 m2 por saco"
+HSET SUCURSAL:1001:PRODUCTO:103 nombre "Tubo de PVC 3" precio 55 categoria "Plomería" datosAdicionales "Longitud: 3 m"
+HSET SUCURSAL:1001:PRODUCTO:104 nombre "Mortero" precio 75 categoria "Material de construcción" datosAdicionales "40 kg"
+#Productos para la sucursal 1002
+HSET SUCURSAL:1002:PRODUCTO:100 nombre "Cemento Portland" precio 150 categoria "Material de construcción" datosAdicionales "Resistencia a la compresión"
+HSET SUCURSAL:1002:PRODUCTO:101 nombre "Tabique rojo recocido" precio 6 categoria "Material de construcción" datosAdicionales "Dimensiones: 12x6x24 cm"
+HSET SUCURSAL:1002:PRODUCTO:102 nombre "Adhesivo para azulejo" precio 70 categoria "Pegamentos" datosAdicionales "6 m2 por saco"
+HSET SUCURSAL:1002:PRODUCTO:103 nombre "Tubo de PVC 3" precio 55 categoria "Plomería" datosAdicionales "Longitud: 3 m"
+HSET SUCURSAL:1002:PRODUCTO:104 nombre "Mortero" precio 75 categoria "Material de construcción" datosAdicionales "40 kg"
+#Productos para la sucursal 1003
+HSET SUCURSAL:1003:PRODUCTO:100 nombre "Cemento Portland" precio 150 categoria "Material de construcción" datosAdicionales "Resistencia a la compresión"
+HSET SUCURSAL:1003:PRODUCTO:101 nombre "Tabique rojo recocido" precio 6 categoria "Material de construcción" datosAdicionales "Dimensiones: 12x6x24 cm"
+HSET SUCURSAL:1003:PRODUCTO:102 nombre "Adhesivo para azulejo" precio 70 categoria "Pegamentos" datosAdicionales "6 m2 por saco"
+HSET SUCURSAL:1003:PRODUCTO:103 nombre "Tubo de PVC 3" precio 55 categoria "Plomería" datosAdicionales "Longitud: 3 m"
+HSET SUCURSAL:1003:PRODUCTO:104 nombre "Mortero" precio 75 categoria "Material de construcción" datosAdicionales "40 kg"
+#Productos para la sucursal 1004
+HSET SUCURSAL:1004:PRODUCTO:100 nombre "Cemento Portland" precio 150 categoria "Material de construcción" datosAdicionales "Resistencia a la compresión"
+HSET SUCURSAL:1004:PRODUCTO:101 nombre "Tabique rojo recocido" precio 6 categoria "Material de construcción" datosAdicionales "Dimensiones: 12x6x24 cm"
+HSET SUCURSAL:1004:PRODUCTO:102 nombre "Adhesivo para azulejo" precio 70 categoria "Pegamentos" datosAdicionales "6 m2 por saco"
+HSET SUCURSAL:1004:PRODUCTO:103 nombre "Tubo de PVC 3" precio 55 categoria "Plomería" datosAdicionales "Longitud: 3 m"
+HSET SUCURSAL:1004:PRODUCTO:104 nombre "Mortero" precio 75 categoria "Material de construcción" datosAdicionales "40 kg"
+
+SADD CLIENTES "cliente:RFC00000:nombre:'Construcciones Pérez S.A. de C.V.'"
+SADD CLIENTES "cliente:RFC11111:nombre:'Juan Garcia'"
+SADD CLIENTES "cliente:RFC22222:nombre:'Ferreteria El Tornillo'"
+SADD CLIENTES "cliente:RFC33333:nombre:'Ingenieria y Obras S.A. de C.V.'"
+SADD CLIENTES "cliente:RFC44444:nombre:'Materiales del Norte S.A.'"
+
+SADD CLIENTES "cliente:RFC55555:nombre:'Carlos Pérez'"
+SADD CLIENTES "cliente:RFC66666:nombre:'Ana López'"
+SADD CLIENTES "cliente:RFC77777:nombre:'Luis González'"
+SADD CLIENTES "cliente:RFC88888:nombre:'María Rodríguez'"
+SADD CLIENTES "cliente:RFC99999:nombre:'José Martínez'"
+
+SADD CLIENTES "cliente:RFC10101:nombre:'Laura Fernández'"
+SADD CLIENTES "cliente:RFC20202:nombre:'Jorge Ramírez'"
+SADD CLIENTES "cliente:RFC30303:nombre:'Patricia Sánchez'"
+SADD CLIENTES "cliente:RFC40404:nombre:'Sergio Morales'"
+SADD CLIENTES "cliente:RFC50505:nombre:'Lucía Torres'"
+
+SADD CLIENTES "cliente:RFC60606:nombre:'Inversiones en Infraestructura S.A.'"
+SADD CLIENTES "cliente:RFC70707:nombre:'Proyectos y Servicios de Construcción S.A.'"
+SADD CLIENTES "cliente:RFC80808:nombre:'Fábrica de Materiales S.A.'"
+SADD CLIENTES "cliente:RFC90909:nombre:'Obras e Infraestructura S.A. de C.V.'"
+SADD CLIENTES "cliente:RFC11112:nombre:'Distribuidora de Herramientas y Equipos S.A.'"
+
+SADD CLIENTES "cliente:RFC13131:nombre:'Materiales y Estructuras del Centro S.A.'"
+SADD CLIENTES "cliente:RFC14141:nombre:'Soluciones Constructivas S.A.'"
+SADD CLIENTES "cliente:RFC15151:nombre:'Hermanos Sánchez S.A. de C.V.'"
+SADD CLIENTES "cliente:RFC16161:nombre:'Distribuidora Regional de Materiales S.A.'"
+SADD CLIENTES "cliente:RFC17171:nombre:'Construcciones y Servicios del Norte S.A. de C.V.'"
+
+#SUCURSAL 1000
+GEOADD SUCURSAL:1000:UBICACION -104.89709233215308 21.50563520844721 "Tornillin Centro"
+SET SUCURSAL:1000:INFO '{"id":1000, "nombre":"Tornillin Centro", "telefono":"3111234567", "dirección": "Durango Sur 187", "longitud": -104.89709233215308, "latitud": 21.50563520844721}'
+#SUCURSAL 1001
+GEOADD SUCURSAL:1001:UBICACION -104.89541061476282 21.521416506276992 "Tornillin Norte"
+SET SUCURSAL:1001:INFO '{"id":1001, "nombre":"Tornillin Norte ", "telefono":"3111234568", "dirección": "C. Aquiles Serdán 558", "longitud": -104.89541061476282, "latitud": 21.521416506276992}'
+#SUCURSAL 1002
+GEOADD SUCURSAL:1002:UBICACION -104.89752622358043 21.49157349456765 "Tornillin Sur"
+SET SUCURSAL:1002:INFO '{"id":1002, "nombre":"Tornillin Sur", "telefono":"3111234569", "dirección": "Moctezuma 21", "longitud": -104.89752622358043, "latitud": 21.49157349456765}'
+#SUCURSAL 1003
+GEOADD SUCURSAL:1003:UBICACION -104.88254861112782 21.50144241344562 "Tornillin Este"
+SET SUCURSAL:1003:INFO '{"id":1003, "nombre":"Tornillin Este", "telefono":"3111234560", "dirección": "Mar Mediterráneo 56", "longitud": -104.88254861112782, "latitud": 21.50144241344562}'
+#SUCURSAL 1004
+GEOADD SUCURSAL:1004:UBICACION -104.91697843683588 21.514411343700203 "Tornillin Oeste"
+SET SUCURSAL:1004:INFO '{"id":1004, "nombre":"Tornillin Oeste", "telefono":"3111234561", "dirección": "C. Bucerias 92", "longitud": -104.91697843683588, "latitud": 21.514411343700203}'
+
+#Ventas de la sucursal 1000
+HSET SUCURSAL:1000:VENTA:001 cliente "RFC00000, Construcciones Pérez S.A. de C.V." total 1200 fecha "2024-09-24"
+HSET SUCURSAL:1000:VENTA:001:PRODUCTOS 100 "Cemento Portland, 5, 750" 103 "Tubo de PVC 10, 550"
+
+HSET SUCURSAL:1000:VENTA:002 cliente "RFC11111, Juan García" total 875 fecha "2024-09-24"
+HSET SUCURSAL:1000:VENTA:002:PRODUCTOS 101 "Tabique rojo recocido, 100, 600" 103 "Tubo de PVC 5, 275"
+
+HSET SUCURSAL:1000:VENTA:003 cliente "RFC22222, Ferreteria El Tornillo" total 1450 fecha "2024-09-24"
+HSET SUCURSAL:1000:VENTA:003:PRODUCTOS 104 "Mortero, 10, 750" 102 "Adhesivo para azulejo 5, 700"
+
+#Ventas de la sucursal 1001
+HSET SUCURSAL:1001:VENTA:001 cliente "RFC55555, Carlos Pérez" total 1200 fecha "2024-09-24"
+HSET SUCURSAL:1001:VENTA:001:PRODUCTOS 100 "Cemento Portland, 5, 750" 103 "Tubo de PVC 10, 550"
+
+HSET SUCURSAL:1001:VENTA:002 cliente "RFC66666, Ana López" total 875 fecha "2024-09-24"
+HSET SUCURSAL:1001:VENTA:002:PRODUCTOS 101 "Tabique rojo recocido, 100, 600" 103 "Tubo de PVC 5, 275"
+
+HSET SUCURSAL:1001:VENTA:003 cliente "RFC77777, Luis González" total 1450 fecha "2024-09-24"
+HSET SUCURSAL:1001:VENTA:003:PRODUCTOS 104 "Mortero, 10, 750" 102 "Adhesivo para azulejo 5, 700"
+
+#Ventas de la sucursal 1002
+HSET SUCURSAL:1002:VENTA:001 cliente "RFC10101, Laura Fernández" total 1200 fecha "2024-09-24"
+HSET SUCURSAL:1002:VENTA:001:PRODUCTOS 100 "Cemento Portland, 5, 750" 103 "Tubo de PVC 10, 550"
+
+HSET SUCURSAL:1002:VENTA:002 cliente "RFC20202, Jorge Ramírez" total 875 fecha "2024-09-24"
+HSET SUCURSAL:1002:VENTA:002:PRODUCTOS 101 "Tabique rojo recocido, 100, 600" 103 "Tubo de PVC 5, 275"
+
+HSET SUCURSAL:1002:VENTA:003 cliente "RFC30303, Patricia Sánchez" total 1450 fecha "2024-09-24"
+HSET SUCURSAL:1002:VENTA:003:PRODUCTOS 104 "Mortero, 10, 750" 102 "Adhesivo para azulejo 5, 700"
+
+#Ventas de la sucursal 1003
+HSET SUCURSAL:1003:VENTA:001 cliente "RFC60606, Inversiones en Infraestructura S.A." total 1200 fecha "2024-09-24"
+HSET SUCURSAL:1003:VENTA:001:PRODUCTOS 100 "Cemento Portland, 5, 750" 103 "Tubo de PVC 10, 550"
+
+HSET SUCURSAL:1003:VENTA:002 cliente "RFC70707, Proyectos y Servicios de Construcción S.A." total 875 fecha "2024-09-24"
+HSET SUCURSAL:1003:VENTA:002:PRODUCTOS 101 "Tabique rojo recocido, 100, 600" 103 "Tubo de PVC 5, 275"
+
+HSET SUCURSAL:1003:VENTA:003 cliente "RFC80808, Fábrica de Materiales S.A." total 1450 fecha "2024-09-24"
+HSET SUCURSAL:1003:VENTA:003:PRODUCTOS 104 "Mortero, 10, 750" 102 "Adhesivo para azulejo 5, 700"
+
+#Ventas de la sucursal 1004
+HSET SUCURSAL:1004:VENTA:001 cliente "RFC13131, Materiales y Estructuras del Centro S.A." total 1200 fecha "2024-09-24"
+HSET SUCURSAL:1004:VENTA:001:PRODUCTOS 100 "Cemento Portland, 5, 750" 103 "Tubo de PVC 10, 550"
+
+HSET SUCURSAL:1004:VENTA:002 cliente "RFC14141, Soluciones Constructivas S.A." total 875 fecha "2024-09-24"
+HSET SUCURSAL:1004:VENTA:002:PRODUCTOS 101 "Tabique rojo recocido, 100, 600" 103 "Tubo de PVC 5, 275"
+
+HSET SUCURSAL:1004:VENTA:003 cliente "RFC15151, Hermanos Sánchez S.A. de C.V." total 1450 fecha "2024-09-24"
+HSET SUCURSAL:1004:VENTA:003:PRODUCTOS 104 "Mortero, 10, 750" 102 "Adhesivo para azulejo 5, 700"
+
+#Clientes para la sucursal 1000
+SADD SUCURSAL:1000:CLIENTES "RFC00000, Construcciones Perez S.A. de C.V."
+SADD SUCURSAL:1000:CLIENTES "RFC11111, Juan Garcia"
+SADD SUCURSAL:1000:CLIENTES "RFC22222, Ferreteria El Tornillo"
+SADD SUCURSAL:1000:CLIENTES "RFC33333, Ingenieria y Obras S.A. de C.V."
+SADD SUCURSAL:1000:CLIENTES "RFC44444, Materiales del Norte S.A."
+#Clientes para la sucursal 1001
+SADD SUCURSAL:1001:CLIENTES "RFC55555, Carlos Pérez"
+SADD SUCURSAL:1001:CLIENTES "RFC66666, Ana López"
+SADD SUCURSAL:1001:CLIENTES "RFC77777, Luis González"
+SADD SUCURSAL:1001:CLIENTES "RFC88888, María Rodríguez"
+SADD SUCURSAL:1001:CLIENTES "RFC99999, José Martínez"
+#Clientes para la sucursal 1002
+SADD SUCURSAL:1002:CLIENTES "RFC10101, Laura Fernández"
+SADD SUCURSAL:1002:CLIENTES "RFC20202, Jorge Ramírez"
+SADD SUCURSAL:1002:CLIENTES "RFC30303, Patricia Sánchez"
+SADD SUCURSAL:1002:CLIENTES "RFC40404, Sergio Morales"
+SADD SUCURSAL:1002:CLIENTES "RFC50505, Lucía Torres"
+#Clientes para la sucursal 1003
+SADD SUCURSAL:1003:CLIENTES "cliente:RFC60606, Inversiones en Infraestructura S.A."
+SADD SUCURSAL:1003:CLIENTES "cliente:RFC70707, Proyectos y Servicios de Construcción S.A."
+SADD SUCURSAL:1003:CLIENTES "cliente:RFC80808, Fábrica de Materiales S.A."
+SADD SUCURSAL:1003:CLIENTES "cliente:RFC90909, Obras e Infraestructura S.A. de C.V."
+SADD SUCURSAL:1003:CLIENTES "cliente:RFC11112, Distribuidora de Herramientas y Equipos S.A."
+#Clientes para la sucursal 1004
+SADD SUCURSAL:1004:CLIENTES "cliente:RFC13131, Materiales y Estructuras del Centro S.A."
+SADD SUCURSAL:1004:CLIENTES "cliente:RFC14141, Soluciones Constructivas S.A."
+SADD SUCURSAL:1004:CLIENTES "cliente:RFC15151, Hermanos Sánchez S.A. de C.V."
+SADD SUCURSAL:1004:CLIENTES "cliente:RFC16161, Distribuidora Regional de Materiales S.A."
+SADD SUCURSAL:1004:CLIENTES "cliente:RFC17171, Construcciones y Servicios del Norte S.A. de C.V."
