@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "add50b91-89eb-4944-85a0-edf543557dac",
+		"name": "Colecciones laboratorio 2.2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31312992"
+	},
+	"item": [
+		{
+			"name": "Query1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/products/1000/product/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"1000",
+						"product",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"rfc\": \"RFC55555\",\n    \"nombre\": \"Isidro Flores\",\n    \"sucursalId\": \"1000\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/client/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"client",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"sucursalId\": \"1004\",\n    \"ventaId\": \"010\",\n    \"cliente\": \"Isidro Flores\",\n    \"rfc\": \"RFC55555\",\n    \"total\": 875,\n    \"fecha\": \"2024-09-24\",\n    \"productos\": {\n        \"101\": \"Tabique rojo recocido, 100, 600\",\n        \"103\": \"Tubo de PVC, 5, 275\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/sale/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sale",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/branch/-104.88556612586837/21.525108866523528/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"branch",
+						"-104.88556612586837",
+						"21.525108866523528",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Querys 5&6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/client/sucursal/1000/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"client",
+						"sucursal",
+						"1000",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
