@@ -131,11 +131,11 @@ POST `/client/add`
 **Ejemplo**
 
 ```docker
-POST http//:3000/client/add
+POST http://localhost:3000/client/add
 #body:
 {
-    "rfc": "22222",
-    "nombre": "Ferreteria El Tornillo",
+    "rfc": "RFC55555",
+    "nombre": "Isidro Flores",
     "sucursalId": "1000"
 }
 ```
@@ -151,9 +151,9 @@ POST http://localhost:3000/sale/add
 #body
 {
     "sucursalId": "1004",
-    "ventaId": "004",
-    "cliente": "Edson Cabrera",
-    "rfc": "RFC12345",
+    "ventaId": "010",
+    "cliente": "Isidro Flores",
+    "rfc": "RFC55555",
     "total": 875,
     "fecha": "2024-09-24",
     "productos": {
